@@ -1,0 +1,158 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Box */
+.modal {
+  background: white;
+  padding: 40px 40px 140px 40px;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.new-list {
+  display: flex;
+  justify-content: end;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.selected-item {
+  background: #007bff;
+  color: white;
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+
+.dropdown {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+}
+
+.dropdown li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background: #f0f0f0;
+}
+
+/* New List Button */
+.new-list-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.new-list-btn:hover {
+  background: #0056b3;
+}
+
+/* New List Form */
+.new-list-form {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.new-list-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: darkgreen;
+}
+
+/* Open Modal Button */
+.open-modal-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.open-modal-btn:hover {
+  background: #0056b3;
+}

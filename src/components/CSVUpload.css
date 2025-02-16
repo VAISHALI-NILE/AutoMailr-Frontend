@@ -1,0 +1,105 @@
+.upload-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+.upload-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.upload-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.download-link {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn,
+.next-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.next-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.next-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cancel-btn:hover {
+  background-color: #cc0000;
+}
+
+.next-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
